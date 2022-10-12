@@ -1,18 +1,22 @@
 const data = [
   {
-    question: "O que é Vanilla JavaScript?",
+    question: "Quantos livros é formado a Bíblia?",
     options: [
-      "JavaScript puro",
-      "Uma biblioteca JavaScript",
-      "Um framework JavaScript",
-      "Um compilador de JavaScript",
+      "46 livros",
+      "56 livros",
+      "66 livros",
+      "76 livros",
     ],
-    answer: "JavaScript puro",
+    answer: "66 livros",
   },
   {
-    question: "Com qual instrução declaramos uma constante em JavaScript?",
-    options: ["const", "let", "var", "define"],
-    answer: "const",
+    question: "Em qual cidade foi fundada a Igreja de Cristo no Brasil?",
+    options: [
+        "Natal",
+        "Mossoró", 
+        "Caicó", 
+        "Parnamirim"],
+    answer: "Mossoró",
   },
   {
     question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
