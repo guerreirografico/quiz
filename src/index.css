@@ -21,19 +21,12 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   padding: .8rem 1.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(132, 53, 222, 1) 0%,
-    rgba(184, 84, 231, 1)100%
-  );
+  background: #2c6307;
   border-radius: 0.5rem;
   border: none;
 }
 
 button:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(184, 84, 232, 1) 0%,
-    rgba(132, 53, 222, 1) 100%
-  );
+  opacity: 0.7;
+  transition: 0.4s;
 }
