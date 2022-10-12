@@ -12,27 +12,42 @@ const data = [
   {
     question: "Em qual cidade foi fundada a Igreja de Cristo no Brasil?",
     options: [
-        "Natal",
-        "Mossoró", 
-        "Caicó", 
-        "Parnamirim"],
+      "Natal",
+      "Mossoró", 
+      "Caicó", 
+      "Parnamirim"
+    ],
     answer: "Mossoró",
   },
   {
-    question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-    options: ["string", "number", "boolean", "float"],
-    answer: "float",
+    question: "Quem o pastor da ICPA?",
+    options: [
+      "Heribaldo",
+      "João",
+      "Welington",
+      "Alex"
+    ],
+    answer: "Alex",
   },
   {
-    question: "Qual dos métodos a seguir seleciona um elemento?",
-    options: ["querySelector", "parseInt", "sort", "reduce"],
-    answer: "querySelector",
+    question: "A palavra TESTAMENTO significa?",
+    options: [
+      "Aliança, Anel ou Assunto",
+      "Pacto, Anel ou Acordo",
+      "Acordo, Pacto ou Aliança",
+      "Assunto, Acordo ou Anel"
+    ],
+    answer: "Acordo, Pacto ou Aliança",
   },
   {
-    question:
-      "Qual destas propriedades da a quantidade de elementos de um array?",
-    options: ["qty", "length", "items", "index"],
-    answer: "length",
+    question: "A palvra BÍBLIA siginifica?",
+    options: [
+      "Coleção de Livros",
+      "Livrarias",
+      "Bibliotecas",
+      "Cadernetas"
+    ],
+    answer: "Coleção de Livros",
   },
 ];
 
