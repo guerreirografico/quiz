@@ -20,7 +20,7 @@ const data = [
     answer: "Mossoró",
   },
   {
-    question: "Quem o pastor da ICPA?",
+    question: "Qual é o nome do pastor da ICPA?",
     options: [
       "Heribaldo",
       "João",
