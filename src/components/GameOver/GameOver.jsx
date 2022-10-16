@@ -1,7 +1,7 @@
 import { useContext} from 'react';
 import { QuizContext } from '../../context/quiz';
 
-import Welldone from "../../assets/welldone.svg";
+import Igreja from "../../assets/igreja.png";
 
 import "./GameOver.css";
 
@@ -13,7 +13,7 @@ export const GameOver = () => {
       <h2>Fim de Jogo</h2>
       <p>Pontuação: {quizState.score}</p>
       <p>Você acertou {quizState.score} de {quizState.questions.length} {""} perguntas.</p>
-      <img src={Welldone} alt="fim do quiz" />
+      <img className="logo-igreja" src={Igreja} alt="fim do quiz" />
       <button onClick={() => dispatch({ type: "NEW_GAME" })}>Reiniciar</button>
     </div>
   )
