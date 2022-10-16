@@ -9,10 +9,11 @@
 }
 
 #welcome p {
-    color: #8435de;
+    color: #39d687;
 }
 
-#welcome img {
+#welcome .logo-igreja {
     margin-top: 2rem;
+    width: 60%;
 }
 

@@ -9,6 +9,8 @@ export const Question = () => {
     const [quizState, dispatch]= useContext(QuizContext);
     const currentQuestion = quizState.questions[quizState.currentQuestion];
 
+    const cont = 1;
+
     const onSelectOptions = (option) => {
         dispatch({
             type: "CHECK_ANSWER",
@@ -21,15 +23,17 @@ export const Question = () => {
             <p>Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}</p>
             <h2>{currentQuestion.question}</h2>
             <div id='options-container'>
-                {currentQuestion.options.map((option) => (
+                {currentQuestion.options.map((option, index) => (
                     <Options 
                         options={option}
                         key={option}
                         answer={currentQuestion.answer}
                         selectOptions={() => onSelectOptions(option)}
+                        numIndex = {index}
                     />
                 ))}
             </div>
+
             {quizState.answerSelected && (
                 <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
                     Continuar

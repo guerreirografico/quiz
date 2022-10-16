@@ -3,7 +3,7 @@ import { QuizContext } from "./context/quiz";
 
 import { Welcome } from "./components/Welcome/Welcome";
 import { Question } from "./components/Question/Question";
-import { GameOver} from "./components/GameOver/GameOver";
+import { GameOver } from "./components/GameOver/GameOver";
 
 import "./App.css";
 
@@ -13,7 +13,7 @@ export const App = () => {
   useEffect(() => {
     dispatch({ type: "REORDER_QUESTIONS" })
   }, []);
-
+  
   return (
    <div className='App'>
     <h1>Quiz Biblico</h1>

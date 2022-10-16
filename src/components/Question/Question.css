@@ -1,13 +1,19 @@
 #question {
     text-align: center;
-    max-width: 500px;
-    background-color: #119c3f;
-    border-radius: 1rem;
+    max-width: 350px;
+    background-color: #418664;
+    border-radius: 1rem 1rem;
     padding: 2rem;
+}
+
+@keyframes test {
+    from {transform: translateX(500px);}
+    to {transform: translateX(0px);}
 }
 
 #question h2 {
     margin-bottom: 2rem;
+    width: 350px;
 }
 
 #question p {
@@ -17,4 +23,3 @@
 #question button {
     border: 1px solid white;
 }
-

@@ -5,13 +5,13 @@
     flex-direction: column;
   }
   
-  #gameover h2,
-  #gameover p {
+  #gameover h2 {
     margin-bottom: 1rem;
   }
-  
+
   #gameover p {
-    color: #8435de;
+    color: #39d687;
+
   }
   
   #gameover img {

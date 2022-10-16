@@ -3,7 +3,7 @@
 import { useContext } from "react";
 import { QuizContext } from "../../context/quiz";
 
-import Quiz from "../../assets/quiz.svg";
+import Igreja from "../../assets/igreja.png";
 import "./Welcome.css";
 
 export const Welcome = () => {
@@ -14,7 +14,9 @@ export const Welcome = () => {
         <h2>Seja bem-vindo</h2>
         <p>Clique no botão abaixo para começar:</p>
         <button onClick={() => dispatch({type: "CHANGE_STATE"})}>Iniciar</button>
-        <img src={Quiz} alt="Inicio do Quiz" />
+        <div>
+          <img className="logo-igreja" src={Igreja} alt="Inicio do Quiz" />
+        </div>
     </div>
   )
 }
